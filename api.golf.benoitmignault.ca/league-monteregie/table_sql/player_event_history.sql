@@ -281,7 +281,7 @@ ALTER TABLE `player_event_history`
 -- AUTO_INCREMENT pour la table `player_event_history`
 --
 ALTER TABLE `player_event_history`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=246;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=263;
 
 --
 -- Contraintes pour les tables déchargées
