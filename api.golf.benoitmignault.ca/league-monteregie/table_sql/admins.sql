@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:3306
--- Généré le : jeu. 20 août 2026 à 18:56
+-- Généré le : mar. 13 oct. 2026 à 20:55
 -- Version du serveur : 10.6.28-MariaDB
--- Version de PHP : 8.4.24
+-- Version de PHP : 8.4.26
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
