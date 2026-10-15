@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:3306
--- Généré le : jeu. 20 août 2026 à 18:57
+-- Généré le : mar. 13 oct. 2026 à 20:51
 -- Version du serveur : 10.6.28-MariaDB
--- Version de PHP : 8.4.24
+-- Version de PHP : 8.4.26
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -275,7 +275,7 @@ ALTER TABLE `event_players`
 -- AUTO_INCREMENT pour la table `event_players`
 --
 ALTER TABLE `event_players`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=236;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=253;
 
 --
 -- Contraintes pour les tables déchargées
