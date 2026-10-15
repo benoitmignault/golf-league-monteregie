@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:3306
--- Généré le : jeu. 20 août 2026 à 18:56
+-- Généré le : mar. 13 oct. 2026 à 20:55
 -- Version du serveur : 10.6.28-MariaDB
--- Version de PHP : 8.4.24
+-- Version de PHP : 8.4.26
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -41,8 +41,9 @@ CREATE TABLE `admins` (
 -- Déchargement des données de la table `admins`
 --
 
--- Données supprimées : ne pas versionner de comptes administrateurs réels.
--- (Conserver uniquement la structure de table et créer les comptes via un script/seeder hors dépôt)
+INSERT INTO `admins` (`id`, `username`, `password_hash`, `role`, `last_login`, `created_at`, `updated_at`) VALUES
+(1, 'benoit_admin', '$2y$10$IK1QDuJ/n3zDFW2NKWa3WOOvPzCwunxTXR9OYIjpP2t.Tsg.LILe.', 'admin', '2026-09-29 03:02:43', '2026-06-04 04:55:29', '2026-09-29 03:02:43'),
+(2, 'nicolas_admin', '$2y$10$4EMbfL9qhBtzTcxYQ74sr.lIdnQuCIlIGfp7.1CIbUWCN6dFknaGa', 'admin', '2026-08-27 02:25:31', '2026-06-04 04:55:29', '2026-08-27 02:25:31');
 
 --
 -- Index pour les tables déchargées

@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:3306
--- Généré le : jeu. 20 août 2026 à 18:57
+-- Généré le : mar. 13 oct. 2026 à 20:50
 -- Version du serveur : 10.6.28-MariaDB
--- Version de PHP : 8.4.24
+-- Version de PHP : 8.4.26
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -58,7 +58,8 @@ INSERT INTO `events` (`id`, `event_name`, `golf_course`, `golf_course_website`, 
 (11, 'Semaine 12', 'Club de golf International 2000 (Parcours St-Bernard & Champlain)', 'https://international2000.ca/', '2026-07-26', '2026-07-07 20:39:45', '2026-07-28 11:48:44', 0, 1, 0),
 (12, 'Semaine 13', 'Club de golf Milby', 'https://golfmilby.com/', '2026-08-02', '2026-07-24 13:01:24', '2026-08-03 19:13:23', 0, 1, 0),
 (13, 'Semaine 14', 'Club de golf Saint-Césaire', 'https://golfsaintcesaire.com/', '2026-08-09', '2026-07-09 16:27:32', '2026-08-11 01:15:42', 0, 1, 0),
-(14, 'Semaine 15 (Mode Vegas)', 'Club de golf Vallée des forts', 'https://golfvalleedesforts.com/', '2026-08-16', '2026-08-11 01:17:31', '2026-08-18 20:34:36', 0, 1, 0);
+(14, 'Semaine 15 (Mode Vegas)', 'Club de golf Vallée des forts', 'https://golfvalleedesforts.com/', '2026-08-16', '2026-08-11 01:17:31', '2026-08-18 20:34:36', 0, 1, 0),
+(15, 'The Finale Event (Cancel - Pluie)', 'Golf Château-Bromont', 'https://chateaubromont.com/golf-chateau-bromont/', '2026-08-30', '2026-08-22 19:21:58', '2026-08-31 03:32:12', 0, 1, 0);
 
 --
 -- Index pour les tables déchargées
@@ -78,7 +79,7 @@ ALTER TABLE `events`
 -- AUTO_INCREMENT pour la table `events`
 --
 ALTER TABLE `events`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
