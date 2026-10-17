@@ -1,3 +1,5 @@
 # Information sur mes passwords
 api.golf.benoitmignault.ca/league-monteregie/admin/auth/create-password-hash.php
 
+# Information sur la table des admins
+api.golf.benoitmignault.ca/league-monteregie/table_sql/admins.sql
