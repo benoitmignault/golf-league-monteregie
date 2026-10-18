@@ -7,15 +7,7 @@
 	 */
 	function connexion_league_golf_monteregie(): mysqli {
 
-		// Nouvelle connexion sur hébergement du Studio OL
-		$host = "localhost";
-		
-		// Venant du fichier info-connexion-bd.php
-		$user = "";
-		$password = "";
-		$bd_league = "";
-
-		include_once("info-connexion-bd.php");
+		include_once(__DIR__ . "/info-connexion-bd.php");
 
 		$connMYSQL = mysqli_connect(
 			$host,
