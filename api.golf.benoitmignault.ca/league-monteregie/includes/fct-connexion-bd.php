@@ -16,9 +16,10 @@
 			$bd_league
 		);
 
-		if (!$connMYSQL) {
-
-			die('Erreur de connexion : ' . mysqli_connect_error());
+		if ($connMYSQL->connect_error) {
+			
+			// Même enveloppe que l'API : ton React teste data.success
+			die(json_encode(["success" => false, "message" => $connMYSQL->connect_error]));
 		}
 
 		// Définir le jeu de caractères pour la connexion recommander par ChatGPT pour inclure emoticônes et autres caractères spéciaux
