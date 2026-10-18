@@ -3,3 +3,6 @@ api.golf.benoitmignault.ca/league-monteregie/admin/auth/create-password-hash.php
 
 # Information sur la table des admins
 api.golf.benoitmignault.ca/league-monteregie/table_sql/admins.sql
+
+# Informations de connexion BD (jamais sur GitHub)
+api.golf.benoitmignault.ca/league-monteregie/includes/info-connexion-bd.php
